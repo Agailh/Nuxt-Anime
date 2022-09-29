@@ -6,17 +6,9 @@
 
     <div class="container movies">
       <div id="movie-grid" class="movies-grid">
-        <div
-          class="movie"
-          v-for="(anime, index) in Animek"
-          :key="index"
-          :poster="Animek.image_url"
-        >
+        <div class="movie" v-for="(anime, index) in Animek" :key="index">
           <div class="movie-img">
-            <img
-              :src="'https://cdn.myanimelist.net/images/anime/1223/96541.jpg'"
-              alt=""
-            />
+            <img :src="anime.images.jpg.image_url" alt="poster" />
             <p class="review">{{ anime.score }}</p>
             <p class="overview">
               {{ anime.synopsis.slice(0, 500) }}
@@ -36,7 +28,7 @@
               class="button button-light"
               :to="{ name: 'Animes-mal_id', params: { mal_id: anime.mal_id } }"
             >
-              Get More Info
+              Details
             </NuxtLink>
           </div>
         </div>
