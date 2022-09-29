@@ -3,9 +3,15 @@
     <img src="../assets/imgs/movieHero.jpg" alt="" />
     <div class="text-container">
       <div class="text">
-        <span class="mini-heading"> now stream </span>
-        <h1><span>Now</span> Streaming</h1>
-        <a href="#anime-grid" class="button">View</a>
+        <span class="mini-heading"> Top Anime to Watch by </span>
+        <h1><span>LEMAO</span> Stream</h1>
+        <p class="subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, totam
+          voluptatem cupiditate modi dolores, laboriosam provident voluptates
+          molestias quas aspernatur maxime saepe. Nisi perspiciatis eveniet
+          nostrum dolor enim blanditiis molestias.
+        </p>
+        <a href="#movie-grid" class="button">View</a>
       </div>
     </div>
   </div>
@@ -64,6 +70,17 @@ export default {
         font-size: 22px;
       }
     }
+
+    .subtitle {
+      font-weight: 600;
+      font-size: 18px;
+
+      color: #ffffff;
+      margin-bottom: 8px;
+      @media (min-width: 750px) {
+        font-size: 22px;
+      }
+    }
     h1 {
       color: #fff;
       font-size: 64px;
@@ -77,6 +94,7 @@ export default {
       }
     }
     .button {
+      padding-top: 10px;
       font-size: 20px;
       align-self: flex-start;
     }
