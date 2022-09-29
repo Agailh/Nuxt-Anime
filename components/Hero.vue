@@ -6,10 +6,9 @@
         <span class="mini-heading"> Top Anime to Watch by </span>
         <h1><span>LEMAO</span> Stream</h1>
         <p class="subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, totam
-          voluptatem cupiditate modi dolores, laboriosam provident voluptates
-          molestias quas aspernatur maxime saepe. Nisi perspiciatis eveniet
-          nostrum dolor enim blanditiis molestias.
+          Lemao Stream best anime list to watch , list top anime by highest
+          rating and review. sou desu ne sou desu ne sou desu ne sou desu ne sou
+          desu ne sou desu ne sou desu ne sou desu ne sou desu ne.
         </p>
         <a href="#movie-grid" class="button">View</a>
       </div>
