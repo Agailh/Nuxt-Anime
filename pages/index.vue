@@ -4,10 +4,10 @@
 
     <!-- Animek Grid -->
 
-    <div class="container movies">
-      <div id="movie-grid" class="movies-grid">
-        <div class="movie" v-for="(anime, index) in Animek" :key="index">
-          <div class="movie-img">
+    <div class="container animes">
+      <div id="anime-grid" class="animes-grid">
+        <div class="anime" v-for="(anime, index) in Animek" :key="index">
+          <div class="anime-img">
             <img :src="anime.images.jpg.image_url" alt="poster" />
             <p class="review">{{ anime.score }}</p>
             <p class="overview">
@@ -89,9 +89,9 @@ export default {
       border-bottom-left-radius: 0;
     }
   }
-  .movies {
+  .animes {
     padding: 32px 16px;
-    .movies-grid {
+    .animes-grid {
       display: grid;
       column-gap: 32px;
       row-gap: 64px;
@@ -105,11 +105,11 @@ export default {
       @media (min-width: 1100px) {
         grid-template-columns: repeat(4, 1fr);
       }
-      .movie {
+      .anime {
         position: relative;
         display: flex;
         flex-direction: column;
-        .movie-img {
+        .anime-img {
           position: relative;
           overflow: hidden;
           &:hover {
