@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img src="../assets/imgs/movieHero.jpg" alt="" />
+    <img src="../assets/imgs/1208599.png" alt="" />
     <div class="text-container">
       <div class="text">
         <span class="mini-heading"> Top Anime to Watch by </span>

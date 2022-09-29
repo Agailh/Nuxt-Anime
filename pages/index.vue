@@ -11,8 +11,8 @@
             <img :src="anime.images.jpg.image_url" alt="poster" />
             <p class="review">{{ anime.score }}</p>
             <p class="overview">
-              {{ anime.synopsis.slice(0, 500) }}
-              <span v-if="anime.synopsis.length > 500">...</span>
+              {{ anime.synopsis.slice(0, 300) }}
+              <span v-if="anime.synopsis.length > 300">...</span>
             </p>
           </div>
           <div class="info">
