@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  mode: 'spa',
   head: {
     title: 'Nuxt-Anime',
     htmlAttrs: {
@@ -33,6 +34,26 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: 'AIzaSyDcyAuWaDM7oSEfPbC82-6j_EK36q_MHrs',
+          authDomain: 'nuxt-anime.firebaseapp.com',
+          projectId: 'nuxt-anime',
+          storageBucket: 'nuxt-anime.appspot.com',
+          messagingSenderId: '737976550757',
+          appId: '1:737976550757:web:3bb4ee654aee2a04de4d8c',
+          measurementId: 'G-3T2NT64P33',
+        },
+        services: {
+          auth: {
+            onAuthStateChangeMutation: 'ON_AUTH_STATE_CHANGED_MUTATION',
+            onAuthStateChangeAction: 'onAuthStateChangeAction',
+          },
+        },
+      },
+    ],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

@@ -31,6 +31,7 @@
 import axios from 'axios'
 export default {
   name: 'single-anime',
+  middleware: 'auth',
   data() {
     return {
       anime: null,
