@@ -8,7 +8,7 @@
         <p class="subtitle">
           Lemao Stream best anime list to watch , list top anime by highest
           rating and review. sou desu ne sou desu ne sou desu ne sou desu ne sou
-          desu ne sou desu ne sou desu ne sou desu ne.
+          desu ne sou desu ne sou desu ne sou desu .
         </p>
         <a href="#movie-grid" class="button">View</a>
       </div>
