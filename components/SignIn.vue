@@ -11,10 +11,7 @@ export default {
       firebaseui.auth.AuthUI.getInstance() ||
       new firebaseui.auth.AuthUI(this.$fire.auth)
     const config = {
-      signInOptions: [
-        this.$fireModule.auth.EmailAuthProvider.PROVIDER_ID,
-        // this.$fireModule.auth.GoogleAuthProvider.PROVIDER_ID,
-      ],
+      signInOptions: [this.$fireModule.auth.EmailAuthProvider.PROVIDER_ID],
       signInSuccessUrl: '/',
       callbacks: {
         signInSuccessWithAuthResult() {

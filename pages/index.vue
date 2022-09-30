@@ -42,7 +42,6 @@ import axios from 'axios'
 import Hero from '../components/Hero.vue'
 
 export default {
-  middleware: 'auth',
   data() {
     return {
       Animek: [],

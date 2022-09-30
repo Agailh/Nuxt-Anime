@@ -49,7 +49,7 @@ export default {
         services: {
           auth: {
             onAuthStateChangeMutation: 'ON_AUTH_STATE_CHANGED_MUTATION',
-            onAuthStateChangeAction: 'onAuthStateChangeAction',
+            // onAuthStateChangeAction: 'onAuthStateChangeAction',
           },
         },
       },
